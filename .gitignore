@@ -6,5 +6,4 @@ node_modules/
 *.tar.gz
 *.zip
 .sites-runtime/
-
-.vercel
+push.bat

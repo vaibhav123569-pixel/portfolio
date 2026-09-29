@@ -1,0 +1,20 @@
+{
+  "name": "vaibhav-gupta-portfolio",
+  "version": "1.0.0",
+  "description": "Personal developer portfolio for Vaibhav Gupta — Computer Science & Engineering student at SRMCEM, Lucknow.",
+  "type": "module",
+  "main": "serve.mjs",
+  "scripts": {
+    "start": "node serve.mjs",
+    "test": "node whatsapp.test.mjs && node verify.mjs",
+    "verify": "node verify.mjs"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "full-stack",
+    "web"
+  ],
+  "author": "Vaibhav Gupta <vaibhav123569@gmail.com>",
+  "license": "MIT"
+}

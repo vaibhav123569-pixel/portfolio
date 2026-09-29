@@ -1,8 +1,7 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/$1" },
-    { "source": "/", "destination": "/dist/index.html" },
-    { "source": "/(.*)", "destination": "/dist/$1" }
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/", "dest": "/dist/index.html" },
+    { "src": "/(.*)", "dest": "/dist/$1" }
   ]
 }
